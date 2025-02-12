@@ -1,0 +1,30 @@
+[0.093s] Invoking command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom -- -j16 -l16
+[0.627s] Invoked command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom -- -j16 -l16
+[0.716s] Invoking command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom
+[0.779s] -- Install configuration: ""
+[0.781s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch
+[0.782s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch/custom_world_launch.py
+[0.783s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch/nav2_custom.launch.py
+[0.783s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/worlds
+[0.784s] -- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/worlds/custom.world
+[0.785s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src
+[0.786s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/my_custommap.yaml
+[0.787s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/my_custommap.pgm
+[0.788s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/butler_robot.py
+[0.788s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/lib/turtlebot3_custom/butler_robot.py
+[0.789s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/package_run_dependencies/turtlebot3_custom
+[0.790s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/parent_prefix_path/turtlebot3_custom
+[0.791s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.sh
+[0.792s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.dsv
+[0.792s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.sh
+[0.793s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.dsv
+[0.793s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.bash
+[0.794s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.sh
+[0.795s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.zsh
+[0.795s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.dsv
+[0.796s] -- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/package.dsv
+[0.797s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/packages/turtlebot3_custom
+[0.798s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig.cmake
+[0.799s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig-version.cmake
+[0.799s] -- Up-to-date: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/package.xml
+[0.811s] Invoked command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom

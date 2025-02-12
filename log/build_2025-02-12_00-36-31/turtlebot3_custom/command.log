@@ -1,0 +1,4 @@
+Invoking command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom -- -j16 -l16
+Invoked command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom -- -j16 -l16
+Invoking command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom
+Invoked command in '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom

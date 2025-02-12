@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (turtlebot3_custom) JobQueued: {'identifier': 'turtlebot3_custom', 'dependencies': OrderedDict()}
+[0.000154] (turtlebot3_custom) JobStarted: {'identifier': 'turtlebot3_custom'}
+[0.007193] (turtlebot3_custom) JobProgress: {'identifier': 'turtlebot3_custom', 'progress': 'cmake'}
+[0.007755] (turtlebot3_custom) Command: {'cmd': ['/usr/bin/cmake', '/home/superpavan/Restaurant_Robot_ROS2-main/turtlebot3_custom', '-DCMAKE_INSTALL_PREFIX=/home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom'], 'cwd': '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'superpavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/superpavan'), ('OLDPWD', '/home/superpavan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'superpavan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'superpavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/superpavan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/superpavan:@/tmp/.ICE-unix/1664,unix/superpavan:/tmp/.ICE-unix/1664'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54e5e37a_7e07_48c9_9c0c_6522b04e7bee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UAPG12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066534] (turtlebot3_custom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099296] (-) TimerEvent: {}
+[0.122143] (turtlebot3_custom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.131437] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199417] (-) TimerEvent: {}
+[0.202762] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.208810] (turtlebot3_custom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.209105] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.209318] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.211779] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292163] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.298399] (turtlebot3_custom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.298681] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.298997] (turtlebot3_custom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299485] (-) TimerEvent: {}
+[0.301239] (turtlebot3_custom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399659] (-) TimerEvent: {}
+[0.500066] (-) TimerEvent: {}
+[0.600450] (-) TimerEvent: {}
+[0.630910] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700577] (-) TimerEvent: {}
+[0.709828] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.746384] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.751040] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.758248] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.768331] (turtlebot3_custom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.782186] (turtlebot3_custom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800694] (-) TimerEvent: {}
+[0.818950] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.821288] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900853] (-) TimerEvent: {}
+[0.930226] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.957579] (turtlebot3_custom) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.999645] (turtlebot3_custom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000964] (-) TimerEvent: {}
+[1.007036] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.085642] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.085968] (turtlebot3_custom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101111] (-) TimerEvent: {}
+[1.164717] (turtlebot3_custom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.165565] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201215] (-) TimerEvent: {}
+[1.208528] (turtlebot3_custom) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.17 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.286538] (turtlebot3_custom) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.299034] (turtlebot3_custom) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.300077] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.301295] (-) TimerEvent: {}
+[1.319321] (turtlebot3_custom) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.401472] (-) TimerEvent: {}
+[1.484379] (turtlebot3_custom) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.501630] (-) TimerEvent: {}
+[1.568149] (turtlebot3_custom) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.590392] (turtlebot3_custom) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.601771] (-) TimerEvent: {}
+[1.619281] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.636845] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.642073] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.649528] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.651420] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.651790] (turtlebot3_custom) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.657726] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.679992] (turtlebot3_custom) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.701876] (-) TimerEvent: {}
+[1.740086] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.745603] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.753803] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.758112] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.758311] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.762110] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.762304] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.766627] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.766850] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.770639] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.770871] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.774576] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.774804] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.778721] (turtlebot3_custom) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.802005] (-) TimerEvent: {}
+[1.861226] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.863605] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.863927] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.883127] (turtlebot3_custom) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.894558] (turtlebot3_custom) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.900435] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.902078] (-) TimerEvent: {}
+[1.924111] (turtlebot3_custom) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.982312] (turtlebot3_custom) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.989180] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.002240] (-) TimerEvent: {}
+[2.010472] (turtlebot3_custom) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.065531] (turtlebot3_custom) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.067960] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.068349] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.088396] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.094157] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.102365] (-) TimerEvent: {}
+[2.115789] (turtlebot3_custom) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.176804] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.179082] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.179456] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.179799] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.180648] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.181687] (turtlebot3_custom) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.194854] (turtlebot3_custom) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.195323] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.202483] (-) TimerEvent: {}
+[2.218566] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.219185] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.219612] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.224371] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.224806] (turtlebot3_custom) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.302633] (-) TimerEvent: {}
+[2.343996] (turtlebot3_custom) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.354075] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.375331] (turtlebot3_custom) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.402791] (-) TimerEvent: {}
+[2.430942] (turtlebot3_custom) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.437359] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.457457] (turtlebot3_custom) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.502928] (-) TimerEvent: {}
+[2.515868] (turtlebot3_custom) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.516299] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.516565] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.516771] (turtlebot3_custom) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.520546] (turtlebot3_custom) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.520936] (turtlebot3_custom) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.542236] (turtlebot3_custom) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.602219] (turtlebot3_custom) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.602996] (-) TimerEvent: {}
+[2.603975] (turtlebot3_custom) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.676458] (turtlebot3_custom) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.676966] (turtlebot3_custom) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.677450] (turtlebot3_custom) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.678655] (turtlebot3_custom) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.679802] (turtlebot3_custom) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.686009] (turtlebot3_custom) StdoutLine: {'line': b'-- Generating done\n'}
+[2.688936] (turtlebot3_custom) StdoutLine: {'line': b'-- Build files have been written to: /home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom\n'}
+[2.701081] (turtlebot3_custom) CommandEnded: {'returncode': 0}
+[2.701944] (turtlebot3_custom) JobProgress: {'identifier': 'turtlebot3_custom', 'progress': 'build'}
+[2.703354] (turtlebot3_custom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom', '--', '-j16', '-l16'], 'cwd': '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'superpavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/superpavan'), ('OLDPWD', '/home/superpavan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'superpavan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'superpavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/superpavan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/superpavan:@/tmp/.ICE-unix/1664,unix/superpavan:/tmp/.ICE-unix/1664'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54e5e37a_7e07_48c9_9c0c_6522b04e7bee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UAPG12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.703995] (-) TimerEvent: {}
+[2.746151] (turtlebot3_custom) CommandEnded: {'returncode': 0}
+[2.747241] (turtlebot3_custom) JobProgress: {'identifier': 'turtlebot3_custom', 'progress': 'install'}
+[2.758202] (turtlebot3_custom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom'], 'cwd': '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'superpavan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/superpavan'), ('OLDPWD', '/home/superpavan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'superpavan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'superpavan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/superpavan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/superpavan:@/tmp/.ICE-unix/1664,unix/superpavan:/tmp/.ICE-unix/1664'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54e5e37a_7e07_48c9_9c0c_6522b04e7bee'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UAPG12'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.219'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/superpavan/Restaurant_Robot_ROS2-main/build/turtlebot3_custom'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.765640] (turtlebot3_custom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.765875] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch\n'}
+[2.766070] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch/custom_world_launch.py\n'}
+[2.766180] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom//launch/nav2_custom.launch.py\n'}
+[2.766278] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/worlds\n'}
+[2.766330] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/worlds/custom.world\n'}
+[2.766417] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src\n'}
+[2.766502] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/my_custommap.yaml\n'}
+[2.766599] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/my_custommap.pgm\n'}
+[2.766687] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/src/butler_robot.py\n'}
+[2.766892] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/lib/turtlebot3_custom/butler_robot.py\n'}
+[2.767124] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/package_run_dependencies/turtlebot3_custom\n'}
+[2.767317] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/parent_prefix_path/turtlebot3_custom\n'}
+[2.767581] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.sh\n'}
+[2.767757] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/ament_prefix_path.dsv\n'}
+[2.767854] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.sh\n'}
+[2.767986] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/environment/path.dsv\n'}
+[2.768145] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.bash\n'}
+[2.768285] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.sh\n'}
+[2.768377] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.zsh\n'}
+[2.768454] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/local_setup.dsv\n'}
+[2.768575] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/package.dsv\n'}
+[2.768775] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/ament_index/resource_index/packages/turtlebot3_custom\n'}
+[2.768958] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig.cmake\n'}
+[2.769086] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/cmake/turtlebot3_customConfig-version.cmake\n'}
+[2.769207] (turtlebot3_custom) StdoutLine: {'line': b'-- Installing: /home/superpavan/Restaurant_Robot_ROS2-main/install/turtlebot3_custom/share/turtlebot3_custom/package.xml\n'}
+[2.772275] (turtlebot3_custom) CommandEnded: {'returncode': 0}
+[2.784180] (turtlebot3_custom) JobEnded: {'identifier': 'turtlebot3_custom', 'rc': 0}
+[2.785144] (-) EventReactorShutdown: {}
